@@ -1,0 +1,7 @@
+
+NUMBER_OF_CHILDREN = 4
+
+DOORS_PER_HOUSE = 2
+
+ADDRESS = '1313 Mockingbird Lane'
+
