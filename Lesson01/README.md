@@ -91,3 +91,13 @@ screen where it says "Git: master."  Find the branch called "tutorials" and try 
 
 If it works, another script should show up in the Lesson01 folder. Load that one up and run it as
 well.
+
+# Objectives
+
+After completing this lesson you should have:
+* A basic understanding of git version control
+* A local copy of this repository
+* Authenticated yourself to Github
+* Checked out a branch
+* Successfully run two Python programs
+
