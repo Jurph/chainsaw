@@ -8,4 +8,3 @@ for item in things:
 
 for critter in animals:
     print(critter)
-
