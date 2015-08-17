@@ -21,6 +21,7 @@ your module's scope.
 ## Variations
 
 There's a few ways to use `import`:
+
 * `import foo` - This puts `foo` in your module's scope. A variable called `bar` in the `foo`
 module can be accessed as `foo.bar` in your module.
 * `from foo import bar` - This puts `foo.bar` specifically in your module's scope as `bar`. No

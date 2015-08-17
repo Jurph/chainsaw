@@ -96,7 +96,7 @@ There are two ways you can call `print_factors()`. See what happens if you do it
 ## Bonus Exercise
 
 If you want to be fancy, see if you can make the factors and the factorial functions behave a bit
-more similar to each other: either they both print or neither prints.
+more similarly to each other: either they both print or neither prints.
 
 # Objectives
 

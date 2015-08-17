@@ -1,11 +1,15 @@
 
 
 def factorial(n):
+    if isinstance(n,list) or isinstance(n,str):
+        return 0
+        # Could just as easily go into a FOR loop here
+        # and return a list of factorials (!)
     if n <= 0:
         return 0
     if n == 1:
         return 1
-    return n + factorial(n-1)
+    return n * factorial(n-1)
 
 
 def print_factors(n, pretty=False):
@@ -31,3 +35,4 @@ for x in range(-2, 20):
     x_fact = factorial(x)
     stuff = "{}! is {}".format(x, x_fact)
     print(stuff)
+    print_factors(x, pretty=True)
